@@ -1,0 +1,13 @@
+[package]
+name = "modules"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "wbc"
+path = "src/lib.rs"
+
+[[bin]]
+name = "test"
+path = "src/main.rs"
+

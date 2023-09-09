@@ -1,0 +1,11 @@
+[package]
+name = "third_party_deps"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies.rusqlite]
+version = "0.26.3"
+features = ["bundled"]
+
+[dev-dependencies]
+tempdir = "0.3"
